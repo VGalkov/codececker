@@ -1,9 +1,6 @@
 package org.example;
 
-import org.example.examples.LongestCommonPrefix;
-import org.example.examples.PalindromeNumber;
-import org.example.examples.RomanToInteger;
-import org.example.examples.TwoSum;
+import org.example.examples.*;
 
 /**
  * тут запускаются списком все наследники AbstractExampleClass, ну или по одному.
@@ -24,6 +21,6 @@ public class App {
 
  */
 
-        (new LongestCommonPrefix()).runTest();
+        (new LengthLastWord()).runTest();
     }
 }
