@@ -1,8 +1,6 @@
-package org.example.examples;
+package org.example.leetcode;
 
 import org.example.system.AbstractExampleClass;
-
-import java.util.*;
 /*
 https://leetcode.com/problems/roman-to-integer/description/
 

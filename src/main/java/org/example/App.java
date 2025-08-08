@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.examples.*;
+import org.example.leetcode.*;
 
 /**
  * тут запускаются списком все наследники AbstractExampleClass, ну или по одному.

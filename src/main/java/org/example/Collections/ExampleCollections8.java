@@ -1,0 +1,25 @@
+package org.example.Collections;
+
+import org.example.system.AbstractExampleClass;
+
+import java.util.Arrays;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class ExampleCollections8 extends AbstractExampleClass {
+
+    Integer[] arr = {0,0,1,2,2,1,3,3,4,4,7}; //как-то через XOR должно решаться  .. не знаю..
+    @Override
+    public void runContent() {
+
+        System.out.println(
+                Arrays.stream(arr)
+                        .collect(Collectors.groupingBy(x -> x, Collectors.counting()))
+                        .entrySet().stream()
+                        .filter(item -> item.getValue() == 1)
+                        .map(Map.Entry::getKey).findFirst().orElse(-1)
+        );
+    }
+
+
+}

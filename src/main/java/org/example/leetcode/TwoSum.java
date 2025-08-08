@@ -1,10 +1,9 @@
-package org.example.examples;
+package org.example.leetcode;
 
 import org.example.system.AbstractExampleClass;
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 // https://leetcode.com/problems/two-sum/submissions/1726248025/

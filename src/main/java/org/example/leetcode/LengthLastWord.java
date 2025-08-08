@@ -1,4 +1,4 @@
-package org.example.examples;
+package org.example.leetcode;
 
 import org.example.system.AbstractExampleClass;
 /*
