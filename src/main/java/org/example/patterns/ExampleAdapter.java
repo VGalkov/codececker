@@ -21,7 +21,7 @@ public class ExampleAdapter extends AbstractExampleClass {
 
 
 
-    private static class PrintAdapter implements  listPrinter {
+    private static class PrintAdapter implements ListPrinter {
 
         private final Printer printer = new Printer();
 
@@ -34,7 +34,7 @@ public class ExampleAdapter extends AbstractExampleClass {
     }
 
 
-    private interface listPrinter{
+    private interface ListPrinter {
         void print(List<String> list);
     }
 

@@ -21,6 +21,6 @@ public class App {
 
  */
 
-        (new LengthLastWord()).runTest();
+        (new ContainerWithMostWater()).runTest();
     }
 }
